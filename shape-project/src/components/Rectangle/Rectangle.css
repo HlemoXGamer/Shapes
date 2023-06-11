@@ -1,0 +1,36 @@
+.rectangle-wrapper {
+  padding: 9px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.rectangle-wrapper > div {
+}
+.rectangle-wrapper > div > span {
+  font-size: 14px;
+  color: #0074b5;
+}
+.rectangle-wrapper > div .input-wrapper {
+  position: relative;
+}
+.rectangle-wrapper > div .input-wrapper .d-input {
+  padding: 2px 15px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #bbb;
+  color: #4e4e4e;
+  border-radius: 4px;
+  height: 40px;
+  max-width: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+}
+.rectangle-wrapper > div .input-wrapper span {
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #89c2e0;
+}
